@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Регистрация на игру в мини-футбол по пятницам</title>
+	</head>
+	<script>
+		
+		function show_form() {
+		   document.getElementById('registration-form-div').style.display = "block";
+		}
+	</script>
+	<script>
+		function myFunction()
+		{
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav")
+		{
+		x.className += " responsive";
+		} else
+		{
+		x.className = "topnav";
+		}
+		}
+	</script>
+	<style type="text/css">
+	body {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	div::after {
+		content: "";
+		background: url(https://s5o.ru/storage/simple/ru/edt/05/82/63/83/rueb57926644d.jpg);
+		background-repeat: repeat-x;
+		background-size: 100%;
+		opacity: 0.1;
+		height: auto;
+		width: 100%;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	ul.topnav
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	}
+	ul.topnav li {float: left;}
+	ul.topnav li a
+	{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	font-weight: bold;
+	}
+
+	ul.topnav li a:hover {
+		border-radius: 5px;
+		background-color: #62c462;
+	}
+	ul.topnav li.icon {display: none;}
+	@media screen and (max-width:680px) {
+		ul.topnav li:not(:first-child) {display: none;}
+		ul.topnav li.icon {
+		float: right;
+		display: inline-block;
+		}
+	}
+	@media screen and (max-width:680px) {
+		ul.topnav.responsive {position: relative;}
+		ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+		}
+		ul.topnav.responsive li {
+		float: none;
+		display: inline;
+		}
+		ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+		border-radius: 5px;
+		}
+	}
+	/* Main marketing message and sign up button */
+	.jumbotron {
+		margin: 60px 0;
+		text-align: center;
+	}
+	.jumbotron p.blocktext {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 56px;
+		line-height: 1;
+	}
+	/* Supporting marketing content */
+	.marketing {
+		margin: 60px 0;
+	}
+	.marketing p + h4 {
+		margin-top: 28px;
+	}
+	
+	input[type=button], [type=submit]
+	{
+		background-image: linear-gradient(to bottom, #62c462, #51a351);
+		background-repeat: repeat-x;
+		border-radius: 5px;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		font-size: 19px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	.form-signin {
+		max-width: 300px;
+		padding: 19px 29px 29px;
+		margin: 0 auto 20px;
+		background-color: #fff;
+		border: 1px solid #e5e5e5;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	}
+	.form-signin .form-signin-heading,
+	.form-signin .checkbox {
+		margin-bottom: 10px;
+	}
+	.form-signin input[type="text"],
+	.form-signin input[type="password"] {
+		font-size: 16px;
+		height: auto;
+		margin-bottom: 15px;
+		padding: 7px 9px;
+	}
+	input[type=text]:focus
+	{
+		border: 3px solid #555;
+	}
+	input[type=submit],[type=button]:hover
+	{
+		background-color: #45a049;
+	}
+
+
+	ul.footerNav
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 1rem;
+	overflow: hidden;
+	
+  	text-align: center;
+  	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	
+	}
+	ul.footerNav li {float: left;}
+	ul.footerNav li a
+	{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+	ul.footerNav li a:hover {
+		border-radius: 5px;
+		background-color: #62c462;
+	}
+	
+	</style>
+	<body>
+		
+		<div class="masthead">
+			<ul class="topnav" id="myTopnav">
+				<li><a class="active" href="#home">Домой</a></li>
+				<li><a href="#news">Новости</a></li>
+				<li><a href="#contact">Контакты</a></li>
+				<li><a href="#about">О нас</a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+				</li>
+			</ul>
+		</div>
+		<hr>
+		<div class="jumbotron">
+			<p class=blocktext>Записывайся играть в мини-футбол в эту пятницу!</p>
+			<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+			<input id="will_go" type="button" value="Я иду" onclick="show_form()"></input>
+
+
+			<div class=form-container id="registration-form-div" style="display: none;">
+				<form class="form-signin" >
+					<h2 class="form-signin-heading">Пожалуйста, зарегистрируйтесь</h2>
+					<input type="text" class="input-block-level" placeholder="Email address">
+					<input type="password" class="input-block-level" placeholder="Password">
+					<br>
+					<label class="checkbox">
+						<input type="checkbox" value="remember-me"> Запомнить меня
+					</label>
+					<br>
+					<button class="btn btn-large btn-primary" type="submit">Подтвердить</button>
+				</form>
+			</div>
+		</div>
+		
+
+
+		<footer class="football-footer">
+			<div class="footer-left">
+				<ul class="footerNav" id="myFooterNav">
+				
+					<li><a href="#contact">Контакты</a></li>
+					<li><a href="#about">О нас</a></li>
+				</ul>
+
+			</div>
+		</footer>
+	</body>
+</html>
