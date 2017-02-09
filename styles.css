@@ -1,0 +1,162 @@
+<style type="text/css">
+	body {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	div::after {
+		content: "";
+		background: url(https://s5o.ru/storage/simple/ru/edt/05/82/63/83/rueb57926644d.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.1;
+		/*height: 0;
+*/		width: 100%;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: fixed;
+		z-index: -1;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	ul.topnav
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	}
+	ul.topnav li {float: left;}
+	ul.topnav li a
+	{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	font-weight: bold;
+	}
+
+	ul.topnav li a:hover {
+		border-radius: 5px;
+		background-color: #62c462;
+	}
+	ul.topnav li.icon {display: none;}
+	@media screen and (max-width:680px) {
+		ul.topnav li:not(:first-child) {display: none;}
+		ul.topnav li.icon {
+		float: right;
+		display: inline-block;
+		}
+	}
+	@media screen and (max-width:680px) {
+		ul.topnav.responsive {position: relative;}
+		ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+		}
+		ul.topnav.responsive li {
+		float: none;
+		display: inline;
+		}
+		ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+		border-radius: 5px;
+		}
+	}
+	/* Main marketing message and sign up button */
+	.jumbotron {
+		margin: 60px 0;
+		text-align: center;
+	}
+	.jumbotron p.blocktext {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 56px;
+		line-height: 1;
+	}
+
+	input[type=button], [type=submit]
+	{
+		background-image: linear-gradient(to bottom, #62c462, #51a351);
+		background-repeat: repeat-x;
+		border-radius: 5px;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		font-size: 19px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	.form-signin {
+		max-width: 300px;
+		padding: 19px 29px 29px;
+		margin: 0 auto 20px;
+		background-color: #fff;
+		border: 1px solid #e5e5e5;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	}
+	.form-signin .form-signin-heading,
+	.form-signin .checkbox {
+		margin-bottom: 10px;
+	}
+	.form-signin input[type="text"],
+	.form-signin input[type="password"] {
+		font-size: 16px;
+		height: auto;
+		margin-bottom: 15px;
+		padding: 7px 9px;
+	}
+	input[type=text]:focus
+	{
+		border: 3px solid #555;
+	}
+	input[type=submit],[type=button]:hover
+	{
+		background-color: #45a049;
+	}
+
+
+	dl.footerNav
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 1rem;
+	overflow: hidden;
+	
+  	text-align: center;
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	
+	}
+	dl.footerNav dd {float: right;}
+	dl.footerNav dd a
+	{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 12px;
+	font-weight: bold;
+	}
+	
+	</style>
